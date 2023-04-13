@@ -79,5 +79,5 @@ st.sidebar.title("Filter Options")
 location = st.sidebar.text_input("Location", value="")
 is_stealth = st.sidebar.text_input("Stealth (Yes/No)", value="")
 
-filtered_df = filter_dataframe(df, location, )
+filtered_df = filter_dataframe(df, location, is_stealth)
 st.write(filtered_df)
